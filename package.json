@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/buschtoens/ember-light-table-addon#readme",
   "scripts": {
-    "start": "ember addon dummy-addon -b ./ --yarn"
+    "clean": "rm -rf dummy-addon",
+    "start": "yarn run clean && ember addon dummy-addon -b ./ --yarn",
+    "inspect": "yarn run clean && bash -c 'node --inspect-brk $(which ember) addon dummy-addon -b ./ --yarn'"
   },
   "dependencies": {}
 }
