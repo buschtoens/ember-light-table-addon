@@ -37,7 +37,7 @@ You like this addon? Awesome. But wait, there's more! Our amazing community just
 
 Can't find what you need? Submit an [addon request][elt-request] or even better ... [write the addon yourself][elt-author-an-addon]! :heart_eyes_cat:
 
-[new-issue]: issues/new
+[new-issue]: ../../issues/new
 
 [elt-readme]: https://github.com/offirgolan/ember-light-table#readme
 [elt-addons]: https://github.com/offirgolan/ember-light-table#addons
