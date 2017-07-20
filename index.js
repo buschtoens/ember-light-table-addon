@@ -27,7 +27,9 @@ ELTAddonBlueprint.updatePackageJson = function(content) {
   }
 
   // add ember-light-table as a dev dependency
-  contents.devDependencies['ember-disable-prototype-extensions'] = `^${this.currentELTVersion}`;
+  contents.devDependencies['ember-light-table'] = `^${this.currentELTVersion}`;
+
+  return JSON.stringify(contents);
 };
 
 module.exports = Blueprint.extend(ELTAddonBlueprint);
