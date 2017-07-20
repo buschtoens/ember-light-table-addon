@@ -6,7 +6,7 @@
 
 > <%= description %>
 
-This is and addon for [**ember-light-table**][elt-readme].
+This is an addon for [**ember-light-table**][elt-readme].
 
 ## :rocket: Installation
 
@@ -19,7 +19,7 @@ ember install <%= addonName %>
 
 ## :ledger: Usage
 
-The addon author hasn't yet filled our this part of the README. :cry:
+The addon author hasn't yet filled out this part of the README. :cry:
 
 You can [open an issue][new-issue] and charmingly ask them to do so.
 
