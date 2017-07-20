@@ -1,0 +1,24 @@
+{
+  "name": "ember-light-table-addon",
+  "version": "0.0.0",
+  "description": "ember-cli blueprint for initializing a new ember-light-table addon",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buschtoens/ember-light-table-addon.git"
+  },
+  "keywords": [
+    "ember-blueprint",
+    "ember-light-table"
+  ],
+  "author": "Jan Buschtöns <jan@buschtoens.me> (https://jan.buschtoens.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buschtoens/ember-light-table-addon/issues"
+  },
+  "homepage": "https://github.com/buschtoens/ember-light-table-addon#readme",
+  "scripts": {
+    "start": "ember addon dummy-addon -b ./ --yarn"
+  },
+  "dependencies": {}
+}
